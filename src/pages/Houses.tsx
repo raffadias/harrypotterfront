@@ -44,7 +44,7 @@ export default function Houses() {
                                 h-[39rem] w-[18rem] bg-gray-900 mt-[3rem] mx-auto rounded-xl shadow-lg group
                                 ${house.name === 'Gryffindor' && 'hover:bg-[#690120]'} 
                                 ${house.name === 'Slytherin' && 'hover:bg-[#1a472a]'} 
-                                ${house.name === 'Hufflepuff' && 'hover:bg-[#EAAA00] hover:text-primary'} 
+                                ${house.name === 'Hufflepuff' && 'hover:bg-[#b48c1d]'} 
                                 ${house.name === 'Ravenclaw' && 'hover:bg-[#0E1A40]'}
                                 hover:transition-all hover:duration-200 hover:ease-in-out hover:h-[40rem] hover:w-[19rem] hover:mt-[2rem]`}
                                 >
