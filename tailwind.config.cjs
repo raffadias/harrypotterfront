@@ -3,6 +3,14 @@ const colors = require('tailwindcss/colors');
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      'cel': {'max': '460px'},
+      'sm': {'max': '664px'},
+      'md': {'max': '895px'},
+      'lg': {'max': '1024px'},
+      'xl': {'max': '1280px'},
+      '2xl': {'max': '1536px'},
+    },
     extend: {
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
