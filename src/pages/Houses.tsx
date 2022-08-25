@@ -26,7 +26,7 @@ export default function Houses() {
     }, []);
     return (
         <>
-            <div className="bg-gray-700 h-screen cel:h-full w-auto">
+            <div className="bg-gray-700 h-screen cel:h-full md:h-full w-auto">
                 <div className="flex flex-col text-center font-aboreto">
                     <Sidebar />
                     
