@@ -13,4 +13,10 @@
         @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md text-white bg-gray-900
         text-xs font-bold transition-all duration-100 scale-0 origin-left
     }
+    .logo-size {
+        @apply h-[12rem] w-[10rem] lg:h-[6rem] lg:w-[5rem] mx-auto mt-5
+    }
+    .houses-color {
+        @apply h-8 w-8 ml-5 lg:h-4 lg:w-4 lg:ml-2 rounded-full shadow-sm
+    }
 }
