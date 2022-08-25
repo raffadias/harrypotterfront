@@ -4,8 +4,6 @@ import Select, { StylesConfig } from 'react-select';
 import { getSpells } from '../services/spellsRequisitions';
 import { DataGrid } from '@mui/x-data-grid';
 import Spinner from '../components/Spinner';
-import { createTheme, ThemeProvider } from '@mui/material';
-import { makeStyles } from '@mui/material/styles';
 
 type MyOptionType = {
     label: string;
