@@ -97,7 +97,7 @@ export default function Spells() {
             <div className="bg-gray-700 h-screen w-auto">
                 <div className="flex flex-col text-center font-aboreto">
                     <Sidebar />
-                    <div className="ml-[15rem] mr-[15rem] my-10">
+                    <div className="ml-[15rem] mr-[15rem] lg:ml-[8rem] lg:mr-[8rem] sm:ml-[2rem] sm:mr-[2rem] my-10">
                         <div className="w-auto text-white font-bold">
                             <label className="text-white">Select a spell type to see their names and effects</label>
                             <Select
@@ -118,7 +118,7 @@ export default function Spells() {
                                 })}
                             />
                         </div>
-                        <div className='flex flex-wrap backdrop-blur-lg backdrop-brightness-150 bg-transparent my-5 h-[29.7rem] rounded-xl z-10'>
+                        <div className='flex flex-wrap backdrop-blur-lg backdrop-brightness-150 bg-transparent mx-auto w-auto my-5 h-[29.7rem] sm:h-[29.7rem] rounded-xl z-10'>
                             {spells !== undefined && loading === false ? (
                                 <>
                                     <DataGrid
