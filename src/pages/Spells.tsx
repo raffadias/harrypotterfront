@@ -94,7 +94,7 @@ export default function Spells() {
 
     return (
         <>
-            <div className="bg-gray-700 h-screen w-auto">
+            <div className="bg-gray-700 h-screen w-auto md:h-full">
                 <div className="flex flex-col text-center font-aboreto">
                     <Sidebar />
                     <div className="ml-[15rem] mr-[15rem] lg:ml-[8rem] lg:mr-[8rem] sm:ml-[2rem] sm:mr-[2rem] my-10">
