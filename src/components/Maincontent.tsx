@@ -8,15 +8,15 @@ export default function Maincontent() {
     school in the entirely wizarding world,`
     return (
         <>
-        <div className="flex flex-col text-center text-white mx-20 my-10 font-aboreto">
-            <div className="font-bold text-4xl">
+        <div className="flex flex-col text-center text-white mx-20 my-10 font-aboreto md:ml-15 md:mr-10">
+            <div className="font-bold text-4xl md:text-2xl">
                 <h1>Welcome to the <span className="xl-inline text-amber-300">Wizarding World</span></h1>
             </div>
-            <div className="mx-20 my-10 px-10 py-5 font-medium border-solid border border-spacing-3 rounded-xl shadow-lg">
+            <div className="mx-20 my-10 px-10 py-5 font-medium border-solid border border-spacing-3 rounded-xl shadow-lg md:text-sm">
             {wizardWorldText} <span className="font-bold text-amber-300">Hogwarts School of Witchcraft and Wizardry.</span>
             </div>
             <div className='flex justify-center'>
-                <img className="w-72 h-72" src={hogwartsImg} alt="" />
+                <img className="w-72 h-72 lg:w-52 lg:h-52 md:w-24 md:h-24 2sm:hidden" src={hogwartsImg} alt="" />
             </div>
         </div>
         </>

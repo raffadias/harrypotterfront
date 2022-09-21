@@ -84,7 +84,7 @@ export default function Houses() {
                                     <label className="text-white font-bold flex justify-center align-center mt-5 lg:mt-2">
                                         Traits <AiOutlineArrowDown size="12" className="text-white self-center ml-3" />
                                     </label>
-                                    <ul className="list-none flex flex-col">
+                                    <ul className="list-none flex flex-col lg:mb-5">
                                         {house.traits.map((trait: any) => (
                                             <li className="text-white text-[11px]">
                                                 {trait.name}
