@@ -11,17 +11,19 @@ export default function Sidebar() {
     const [houses, setHouses] = useState<Boolean>(false);
     return (
         <>
-            <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-primary text-gray-100 shadow-lg">
+            <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-primary text-gray-100 shadow-lg sm:h-full">
 
                 <div className="mt-50">
                     <Link to="/">
                         <SidebarIcon icon={<img className="w-8 h-8" src={hogwartsImg} alt="" />} text="Home" />
                     </Link>
                 </div>
-                <Link to="/spells">
-                    <SidebarIcon icon={<ImMagicWand size="28" className="hover:animate-wiggle" />} text="Spells" />
-                </Link>
-
+                <div className="sm:hidden">
+                    <Link to="/spells">
+                        <SidebarIcon icon={<ImMagicWand size="28" className="hover:animate-wiggle" />} text="Spells" />
+                    </Link>
+                </div>
+                
                 <a onClick={() => { setHouses(!houses) }}>
                     <SidebarIcon icon={<GiCheckedShield size="28" className="hover:animate-beat" />} text="Hogwarts Houses" className="z-99" />
                 </a>

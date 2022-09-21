@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors');
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
     screens: {
       'cel': {'max': '460px'},
       'sm': {'max': '664px'},
+      '2sm': {'max': '737px'},
       'md': {'max': '895px'},
       'lg': {'max': '1024px'},
       'xl': {'max': '1280px'},
